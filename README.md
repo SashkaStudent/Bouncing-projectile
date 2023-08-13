@@ -2,7 +2,7 @@
 
 Для начала работы необходимо создать форк данного репозитория на GitHub: `Fork → Create fork`.
 
-После выполнения задания необходимо будет создать Pull request — запрос на слияние с [исходным репозиторием](https://github.com/SashkaStudent/Bouncing-projectile): `Pull requests → Create Pull request`.
+После выполнении каждой задачи необходимо будет создать Pull request — запрос на слияние с [исходным репозиторием](https://github.com/SashkaStudent/Bouncing-projectile): `Pull requests → Create Pull request`.
 
 ## Вводные данные
 
