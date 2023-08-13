@@ -39,20 +39,23 @@
 `GreenObstacle`: 
 * При столкновении `Projectile` меняет своё направление (отражение относительно нормали поверхности);
 * В консоль выводится `My name is {Имя этого gameObject}, I got hit by this projectile: {Имя снаряда}`;
+  
 Этот компонент применить к `Green box`.
 
 `YellowObstacle`: 
 * При столкновении `Projectile` не меняет своё направление;
 * В консоль выводится `My name is {Имя этого gameObject}, and I destroyed by: {Имя снаряда}`;
 * Игровой объект содержащий компонент `YellowObstacle` уничтожается.
+  
 Этот компонент применить к `Yellow box`.
 
 `RedObstacle`:
 * При столкновении снаряд уничтожается. 
 
+Этот компонент применить к `Red box`.
+
 В видео показано, что должно получиться `./Bouncing-projectile/Example/Example 2.mp4`.
 Задача выполняется в ветке `feature/solution-2` созданной от `feature/solution-1`.
-Этот компонент применить к `Red box`.
 
 ### Условия:
 
@@ -65,15 +68,15 @@
 Скрипт `Reflector` присваивает следующее поведение объекту `Obstacle`:
 * При столкновении `Projectile` меняет своё направление (отражение относительно нормали поверхности);
 * В консоль выводится `My name is {Имя этого gameObject}, I got hit by this projectile: {Имя снаряда}`.
+  
 Этот компонент добавить к `Yellow box`.
 
 Скрипт `Through` присваивает следующее поведение объекту `Obstacle`:
 * При столкновении `Projectile` не меняет своё направление и проходит сквозь;
 * Объект `Obstacle` при этом не уничтожается;
 * В консоль выводится `My name is {Имя этого gameObject}, this projectile flew past me: {Имя снаряда}`.
+  
 Этот компонент применить к `Green box`.
 
-
 В видео показано, что должно получиться `./Bouncing-projectile/Example/Example 3.mp4`
-
 Задача выполняется в ветке `feature/solution-3` созданной от `feature/solution-2`.
